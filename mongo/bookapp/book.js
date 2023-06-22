@@ -1,6 +1,6 @@
-const express = require("express");
-const bodyParser = require('body-parser');
-const { default: mongoose } = require("mongoose");
+const express = required("express");
+const bodyParser = required('body-parser');
+const mongoose  = required("mongoose");
 
 const app = express();
 
@@ -119,6 +119,8 @@ module.exports = Book;
 app.listen(3000,() =>{
   console.log('Server started')
 });
+
+
 
 
 

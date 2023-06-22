@@ -7,11 +7,11 @@ mongoose.connect('mongodb+srv://himakshitalukdar:vmW0ZUPiMHGaqQ3l@cluster0.vb0gw
   .then(() => {
     console.log('Connected to MongoDB');
     const newProduct = new Product({
-      name: 'Example1 Product',
-      email: 'example1@example.com',
-      mobileNumber: 1334567890,
+      name: 'Example1 Product1',
+      email: 'example2@example.com',
+      mobileNumber: 1344567890,
       age: 25,
-      address: '123 Example Street1',
+      address: '125 Example Street1',
       isActive: true
     });
     newProduct.save()
